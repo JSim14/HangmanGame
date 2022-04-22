@@ -14,7 +14,9 @@ namespace HangmanGameConsole
             Console.Write("Welcome to Hangman!!");
 
             var hangman = new HangmanGame();
-            hangman.Run();
+            hangman.Run(); 
+            
+           
 
             Console.ForegroundColor = oldColor;
 
